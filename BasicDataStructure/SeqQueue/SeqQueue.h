@@ -1,0 +1,1 @@
+#ifndef __SEQ_QUEUE_H__#define __SEQ_QUEUE_H__#define QUEUEMAX 15typedef struct {    DATA data[QUEUEMAX];    int head;    int tail;}SeqQueue;#endif
